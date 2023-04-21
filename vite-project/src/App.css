@@ -1,0 +1,21 @@
+.announcement-wrapper {
+    /* background-color: red; */
+    background-color: white;
+    padding: 10px;
+    font-size: 12pt;
+}
+
+.announcement-wrapper > div {
+    padding: 15px;
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.announcement-title {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.announcement-text {
+    font-size: 10pt;
+}
