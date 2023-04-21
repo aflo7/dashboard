@@ -53,12 +53,14 @@ body {
     padding: 10px;
     padding-left: 35px;
     padding-right: 35px;
+    margin-top: 10px;
     color: white;
-    font-size: 16pt;
+    font-size: 14pt;
     margin-left: 4px;
     height: fit-content;
     cursor: pointer;
     margin-left: 15px;
+    font-weight: bold;
 }
 
 .top-bar-btn:hover {
@@ -101,10 +103,35 @@ body {
     font-size: 20pt;
 }
 
+.notif-icon {
+    padding-right: 15px;
+    padding-top: 0px;
+    font-size: 16pt;
+    padding: 20px;
+}
+
+.user {
+    font-size: 16pt;
+    
+}
+
+.japanese-icon {
+    height: 40px;
+}
+
 input {
     background-color: rgb(181, 181, 181);
     width: 400px;
     padding: 5px;
     border-radius: 20px;
     border: none;
+}
+
+.announcement {
+    margin-top: 20px;
+    
+}
+
+.first-announcement {
+
 }

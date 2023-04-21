@@ -1,12 +1,17 @@
 .icon-wrapper {
   display: flex;
   flex-direction: row;
-  background-color: white;
-  border-radius: 10px;
-  margin-top: 10px;
+  padding: 5px;
+
+
 
 }
 
 .icon {
   margin: 10px;
+}
+
+.icons {
+  background-color: white;
+  margin-top: 10px;
 }
