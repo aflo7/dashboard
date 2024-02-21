@@ -1,20 +1,49 @@
 .announcement-wrapper {
-    background-color: white;
-    padding: 10px;
-    font-size: 12pt;
+  background-color: white;
+  padding: 10px;
+  font-size: 12pt;
 }
 
 .announcement-wrapper > div {
-    padding: 15px;
-    border-bottom: 2px solid black;
-    margin-bottom: 5px;
+  padding: 15px;
+  border-bottom: 2px solid black;
+  margin-bottom: 5px;
 }
 
 .announcement-title {
-    font-weight: bold;
-    font-size: 12pt;
+  font-weight: bold;
+  font-size: 12pt;
 }
 
 .announcement-text {
-    font-size: 10pt;
+  font-size: 10pt;
+}
+
+.burger-wrapper {
+  cursor: pointer;
+  border: 1px solid black;
+  width: fit-content;
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.burger-wrapper:hover {
+  background-color: lightgray;
+}
+
+.right-nav-wrapper {
+  display: none;
+}
+.search-input {
+    padding: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .right-nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+  }
 }
