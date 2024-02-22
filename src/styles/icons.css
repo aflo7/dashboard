@@ -1,17 +1,17 @@
 .icon-wrapper {
   display: flex;
-  flex-direction: row;
-  padding: 5px;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
 
-
-
+  cursor: pointer;
 }
 
-.icon {
-  margin: 10px;
+.icon-wrapper:hover {
+  background-color: whitesmoke;
 }
 
 .icons {
   background-color: white;
-  margin-top: 10px;
+  border-radius: 5px;
 }

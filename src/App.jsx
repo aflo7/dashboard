@@ -20,7 +20,7 @@ function App() {
       <div className="container">
         {/* <Dashboard /> */}
         <Drawer anchor="left" open={opened} onClose={() => setOpened(false)}>
-          <Dashboard closeTheDashboard={() => setOpened(false)}/>
+          <Dashboard closeTheDashboard={() => setOpened(false)} />
         </Drawer>
 
         <div className="right-side">
@@ -102,7 +102,8 @@ function App() {
                 style={{
                   backgroundColor: 'white',
                   marginBottom: '30px',
-                  padding: '20px'
+                  padding: '20px',
+                  borderRadius: '5px'
                 }}
               >
                 <div className="first-announcement">
@@ -146,7 +147,8 @@ function App() {
               <div
                 style={{
                   display: 'flex',
-                  flexDirection: 'column'
+                  flexDirection: 'column',
+                  gap: '10px'
                 }}
               >
                 <div>Trending</div>
@@ -156,13 +158,19 @@ function App() {
                     <div className="icon">
                       <img src={clown} style={{ width: '50px' }} />
                     </div>
-                    <div style={{ paddingTop: '15px' }}>
+                    <div
+                      style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '5px'
+                      }}
+                    >
                       <div>@clownguy123</div>
                       <div
                         style={{
                           color: 'gray',
-                          fontSize: '12pt',
-                          marginTop: '5px'
+                          fontSize: '12pt'
+                          // marginTop: '5px'
                         }}
                       >
                         The Clown
@@ -174,7 +182,13 @@ function App() {
                     <div className="icon">
                       <img src={congolese} style={{ width: '50px' }} />
                     </div>
-                    <div style={{ paddingTop: '15px' }}>
+                    <div
+                      style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '5px'
+                      }}
+                    >
                       <div>@congoy5</div>
                       <div
                         style={{
@@ -192,7 +206,13 @@ function App() {
                     <div className="icon">
                       <img src={cuban} style={{ width: '50px' }} />
                     </div>
-                    <div style={{ paddingTop: '15px' }}>
+                    <div
+                      style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '5px'
+                      }}
+                    >
                       <div>@cube99</div>
                       <div
                         style={{
@@ -210,7 +230,13 @@ function App() {
                     <div className="icon">
                       <img src={indian} style={{ width: '50px' }} />
                     </div>
-                    <div style={{ paddingTop: '15px' }}>
+                    <div
+                      style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '5px'
+                      }}
+                    >
                       <div>@oopindia</div>
                       <div
                         style={{

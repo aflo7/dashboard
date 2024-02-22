@@ -65,7 +65,7 @@ body {
 }
 .top-bar-btn {
     background-color: rgb(72, 72, 255);
-    border-radius: 1000px;
+    border-radius: 5px;
     padding: 10px 45px;
     color: white;
     font-size: 14pt;
@@ -116,14 +116,10 @@ body {
 
 .search-icon {
     font-size: 20pt;
+    flex-shrink: 0;
 }
 
-.notif-icon {
-    padding-right: 15px;
-    padding-top: 0px;
-    font-size: 16pt;
-    padding: 20px;
-}
+
 
 .japanese-icon {
     height: 40px;
@@ -133,7 +129,7 @@ input {
     background-color: rgb(181, 181, 181);
     width: 400px;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 5px;
     border: none;
 }
 
