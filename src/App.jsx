@@ -50,28 +50,21 @@ function App() {
             </div>
 
             <div
-              style={{
-                display: 'flex',
-                justifyContent: 'space-between'
-              }}
+            className='bottom-nav-wrapper'
+             
             >
               <div
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '15px'
-                }}
+              className='bottom-nav-top-wrapper'
+                
               >
                 <img src={japanese} style={{ height: '50px' }} />
                 <div>Hi there, Andres Flores (@andres)</div>
               </div>
 
               <div
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '10px'
-                }}
+              className='bottom-nav-button-wrapper'
+
+              
               >
                 <div className="top-bar-btn">New</div>
                 <div className="top-bar-btn">Upload</div>

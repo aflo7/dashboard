@@ -1,140 +1,140 @@
 body {
-    font-size: 16pt;
-    background-color: white;
-    color: black;
+  font-size: 16pt;
+  background-color: white;
+  color: black;
 }
 
 .container {
-    /* display: flex; */
+  /* display: flex; */
 }
 
 .dashboard {
-    background-color: rgb(72, 72, 255);
-    color: white;
-    height: 100%;
-    width: 400px;
+  background-color: rgb(72, 72, 255);
+  color: white;
+  height: 100%;
+  width: 400px;
 }
 
 .close-wrapper {
-    cursor: pointer;
-    border: 1px solid white;
-    width: fit-content;
-    display: flex;
-    padding: 5px;
-    border-radius: 5px;
-  }
-  
-  .close-wrapper:hover {
-    background-color: rgb(108, 108, 255);
+  cursor: pointer;
+  border: 1px solid white;
+  width: fit-content;
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+}
 
-  }
+.close-wrapper:hover {
+  background-color: rgb(108, 108, 255);
+}
 
 .top-dashboard-btn {
-    margin-bottom: 30px;
-    font-size: 20pt;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 20pt;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .top-dashboard-btn-text {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.dashboard-btn, .top-dashboard-btn {
-    cursor: pointer;
-    padding: 15px;
-    display: flex;
+.dashboard-btn,
+.top-dashboard-btn {
+  cursor: pointer;
+  padding: 15px;
+  display: flex;
 }
 .dashboard-btn:hover {
-    background-color: rgb(108, 108, 255);
+  background-color: rgb(108, 108, 255);
 }
 .right-side {
-    /* width: 80%; */
-    display: flex;
-    flex-direction: column;
+  /* width: 80%; */
+  display: flex;
+  flex-direction: column;
 }
 
 .top-bar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 60px;
-    padding: 15px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 15px 25px;
 }
 .top-bar-btn {
-    background-color: rgb(72, 72, 255);
-    border-radius: 5px;
-    padding: 10px 45px;
-    color: white;
-    font-size: 14pt;
-    height: fit-content;
-    cursor: pointer;
-    font-weight: bold;
+  background-color: rgb(72, 72, 255);
+  border-radius: 5px;
+  padding: 10px 50px;
+  width: 100%;
+  color: white;
+  font-size: 0.8rem;
+  height: fit-content;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
 }
 
 .top-bar-btn:hover {
-    background-color: rgb(183, 183, 229);
+  background-color: rgb(183, 183, 229);
 }
 .menu {
-    flex: 1;
-    background-color: rgb(181, 181, 181);
-    display: flex;
-    gap: 35px;
-    padding: 15px 25px;
+  flex: 1;
+  background-color: rgb(181, 181, 181);
+  display: flex;
+  gap: 35px;
+  padding: 15px 25px;
 }
 
 .menu-title {
-    font-size: 18pt;
-    margin-bottom: 10px;
+  font-size: 18pt;
+  margin-bottom: 10px;
 }
 
 .left-menu-wrapper {
-    width: 100%;
+  width: 100%;
 }
 
 .right-menu-wrapper {
-    display: none;
+  display: none;
 }
 
 @media screen and (min-width: 1200px) {
-    .left-menu-wrapper {
-        width: 75%;
-    }
-    .right-menu-wrapper {
-        width: 25%;
-        display: flex;
-        flex-direction: column;
-    }
+  .left-menu-wrapper {
+    width: 75%;
+  }
+  .right-menu-wrapper {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  }
 }
 .search-bar {
-    background-color: lightgray;
-    width: 250px;
-    border-radius: 1000px;
+  background-color: lightgray;
+  width: 250px;
+  border-radius: 1000px;
 }
 
 .search-icon {
-    font-size: 20pt;
-    flex-shrink: 0;
+  font-size: 20pt;
+  flex-shrink: 0;
 }
 
-
-
 .japanese-icon {
-    height: 40px;
+  height: 40px;
 }
 
 input {
-    background-color: rgb(181, 181, 181);
-    width: 400px;
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
+  background-color: rgb(181, 181, 181);
+  width: 400px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
 }
 
 .announcement {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .first-announcement {
