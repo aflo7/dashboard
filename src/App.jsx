@@ -15,12 +15,15 @@ import Drawer from '@mui/material/Drawer';
 function App() {
   const [opened, setOpened] = useState(false);
 
+  function closeTheDashBoard() {
+    setOpened(false);
+  }
+
   return (
     <>
       <div className="container">
-        {/* <Dashboard /> */}
-        <Drawer anchor="left" open={opened} onClose={() => setOpened(false)}>
-          <Dashboard closeTheDashboard={() => setOpened(false)} />
+        <Drawer anchor="left" open={opened} onClose={closeTheDashBoard}>
+          <Dashboard closeTheDashboard={closeTheDashBoard} />
         </Drawer>
 
         <div className="right-side">
@@ -49,23 +52,13 @@ function App() {
               </div>
             </div>
 
-            <div
-            className='bottom-nav-wrapper'
-             
-            >
-              <div
-              className='bottom-nav-top-wrapper'
-                
-              >
+            <div className="bottom-nav-wrapper">
+              <div className="bottom-nav-top-wrapper">
                 <img src={japanese} style={{ height: '50px' }} />
                 <div>Hi there, Andres Flores (@andres)</div>
               </div>
 
-              <div
-              className='bottom-nav-button-wrapper'
-
-              
-              >
+              <div className="bottom-nav-button-wrapper">
                 <div className="top-bar-btn">New</div>
                 <div className="top-bar-btn">Upload</div>
                 <div className="top-bar-btn">Share</div>

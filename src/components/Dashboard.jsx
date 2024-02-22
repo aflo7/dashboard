@@ -14,7 +14,7 @@ import {
 } from 'react-icons/md';
 import { CiSettings } from 'react-icons/ci';
 
-function Dashboard({closeTheDashboard}) {
+function Dashboard({ closeTheDashboard }) {
   return (
     <div className="dashboard">
       <div>

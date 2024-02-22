@@ -1,8 +1,5 @@
-
 import { AiOutlineEye, AiOutlineFork } from 'react-icons/ai';
-import {
-  MdOutlineFavoriteBorder
-} from 'react-icons/md';
+import { MdOutlineFavoriteBorder } from 'react-icons/md';
 
 function Project({ projectTitle, projectDescription }) {
   return (
